@@ -1,0 +1,10 @@
+*.Rproj.user
+*.Rhistory
+*.RData
+*.Ruserdata
+*/output
+*/*/output
+*/*/output_store
+*/*/output_stable
+.Rproj.user
+
