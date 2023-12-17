@@ -46,7 +46,7 @@ list_input_files_df$universe_table %<>%
     #  arr.birth (day, month, and year) is missing
     suppressWarnings(create_date_feature("arr.birth.date")) %>%
     mutate(prog_att = ifelse(mearstat == "attended", 1, 0),
-           alternative_att_flag = ifelse(treatment_group == 1 &
+           alt_att_flag = ifelse(treatment_group == 1 &
                                              inhouse_idFlg %% 2 == 1, 1, 0)) %>%
     create_fup_fts_mlti_ref_date(config = task_config)
 
