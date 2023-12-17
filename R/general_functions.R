@@ -61,7 +61,7 @@ create_diff_count_indicators <- function(universe_table,
         truncation_cutoff = truncation_cutoff
     )
 
-    lim_nysids_time_agg <- data %>%
+    lim_ids_time_agg <- data %>%
         group_by(new.id) %>%
         summarise(n()) %$%
         new.id
@@ -83,7 +83,7 @@ create_diff_count_indicators <- function(universe_table,
     data_with_outcomes <- bind_cols(
         # reattach ids because they are removed in the
         # calc_multi_count_indicators function
-        tibble(new.id = lim_nysids_time_agg),
+        tibble(new.id = lim_ids_time_agg),
         data_with_regular_outcomes
     )
 
@@ -288,11 +288,11 @@ dummy_features <- function(df, specified_features) {
 
 deduplicate_cases <- function(df) {
     df %>%
-        group_by(new.id, a.date, a.ori) %>%
+        group_by(new.id, arr.date, arr.ori, arr.nysp) %>%
         mutate(max.stint.id = max(stint.id)) %>%
         ungroup() %>%
         mutate(max.stint.id.ind = if_else(max.stint.id == stint.id, 1, 0)) %>%
-        group_by(new.id, a.date, a.ori) %>%
+        group_by(new.id, arr.date, arr.ori, arr.nysp) %>%
         arrange(desc(max.stint.id.ind)) %>%
         filter(max.stint.id.ind == 1) %>%
         ungroup()
