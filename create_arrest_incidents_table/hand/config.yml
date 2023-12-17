@@ -1,0 +1,21 @@
+---
+# raw data file path
+raw_data_path:
+
+arr.firearm.types:
+    - Top Charge is Firearm Related
+    - Underlying Charge is Firearm Related
+
+arr.charge.types:
+    - 'PL 265'
+    - 'PL 120.05   02    DF213A'
+    - 'PL 120.14   01    AM213A'
+
+arr.charge.type.520:
+    # we count incidents with the final 3 characters of arr_charge equal to 520
+    - 520
+
+arr.vfo.types:
+    - VFO
+    - Underlying VFO Charge
+    - VFO-like class A-1 offenses not in VFO Legislation
