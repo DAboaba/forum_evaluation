@@ -4,8 +4,8 @@ IN_DIR :=
 include ../config.mk
 
 # Input(s)
-TASK_CONFIG = $(TASK_DIR)/hand/config.yaml
-EXTRA_CONFIGS =  $(wildcard $(TASK_DIR)/hand/codebooks/*.yaml)
+TASK_CONFIG = $(TASK_DIR)/hand/config.yml
+EXTRA_CONFIGS =  $(wildcard $(TASK_DIR)/hand/codebooks/*.yml)
 TASK_FNS = $(wildcard $(TASK_DIR)/R/*.R)
 IN_FILE = $(IN_DIR)/
 
