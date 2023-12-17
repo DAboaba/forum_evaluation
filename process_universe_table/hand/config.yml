@@ -1,0 +1,9 @@
+---
+previous_task_name:
+    - create_universe_table
+
+followup_ref_date:
+    - max.data.arr.date
+    - max.arr.date
+
+num_days_in_month: 30.4
