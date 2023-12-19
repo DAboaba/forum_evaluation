@@ -1,0 +1,20 @@
+---
+previous_task_name:
+    - create_arrest_incidents_table
+    - clean_universe_table
+
+num_days_in_month: 30.4
+
+count_types:
+    - prior.arr
+    - prior.vfo.arr
+    - prior.wea.arr
+
+timespans_in_months:
+    - any
+
+covariates_to_dummy:
+    - modal.sex
+    - arr.re.combi
+    - treatment_group
+
