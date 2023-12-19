@@ -1,5 +1,5 @@
 TASK_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
-PREV_TASK := generate_reports/generate_model_tables
+PREV_TASK := gen_reports/gen_model_tables
 
 include ../../config.mk
 
