@@ -1,0 +1,17 @@
+---
+num_days_in_month: 30.4
+
+count_types:
+    - ftr.arr
+    - ftr.arr.trunc
+    - ftr.vfo.arr
+    - ftr.vfo.arr.trunc
+    - ftr.wea.arr
+    - ftr.wea.arr.trunc
+
+timespans_in_months:
+    - any
+    - 3
+    - 6
+    - 12
+    - 24

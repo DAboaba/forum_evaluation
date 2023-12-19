@@ -1,0 +1,19 @@
+---
+num_days_in_month: 30.4
+
+count_types:
+    - ftr.pvio
+    - ftr.pvio.trunc
+    - ftr.pvio.new.arr
+    - ftr.pvio.new.arr.trunc
+    - ftr.pvio.abs
+    - ftr.pvio.abs.trunc
+    - ftr.pvio.tech
+    - ftr.pvio.tech.trunc
+
+timespans_in_months:
+    - any
+    - 3
+    - 6
+    - 12
+    - 24
