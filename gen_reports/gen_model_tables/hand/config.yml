@@ -1,0 +1,399 @@
+---
+previous_task_names:
+    - run_models
+
+desired_tables:
+    - Table 5
+    - Table A2
+    - Table 6
+    - Table 8
+    - Table 6b
+    - Table 8b
+    - Table 9
+    - Table 9b
+    - Table 10
+    - Table 10b
+    - Table 5 truncated
+    - Table A2 truncated
+
+Table 5:
+    Effect of being called in to attend forums:
+        - 'Impact Estimate 1: OLS of ftr.arr.ever'
+        - 'Impact Estimate 1: OLS of ftr.arr.3.mos'
+        - 'Impact Estimate 1: OLS of ftr.arr.6.mos'
+        - 'Impact Estimate 1: OLS of ftr.arr.1.yr'
+        - 'Impact Estimate 1: OLS of ftr.arr.2.yr'
+        - 'Impact Estimate 1: OLS of ftr.vfo.arr.ever'
+        - 'Impact Estimate 1: OLS of ftr.vfo.arr.3.mos'
+        - 'Impact Estimate 1: OLS of ftr.vfo.arr.6.mos'
+        - 'Impact Estimate 1: OLS of ftr.vfo.arr.1.yr'
+        - 'Impact Estimate 1: OLS of ftr.vfo.arr.2.yr'
+        - 'Impact Estimate 1: OLS of ftr.pvio.ever'
+        - 'Impact Estimate 1: OLS of ftr.pvio.3.mos'
+        - 'Impact Estimate 1: OLS of ftr.pvio.6.mos'
+        - 'Impact Estimate 1: OLS of ftr.pvio.1.yr'
+        - 'Impact Estimate 1: OLS of ftr.pvio.2.yr'
+        - 'Impact Estimate 1: OLS of ftr.pvio.new.arr.ever'
+        - 'Impact Estimate 1: OLS of ftr.pvio.new.arr.3.mos'
+        - 'Impact Estimate 1: OLS of ftr.pvio.new.arr.6.mos'
+        - 'Impact Estimate 1: OLS of ftr.pvio.new.arr.1.yr'
+        - 'Impact Estimate 1: OLS of ftr.pvio.new.arr.2.yr'
+        - 'Impact Estimate 1: OLS of ftr.pvio.abs.ever'
+        - 'Impact Estimate 1: OLS of ftr.pvio.abs.3.mos'
+        - 'Impact Estimate 1: OLS of ftr.pvio.abs.6.mos'
+        - 'Impact Estimate 1: OLS of ftr.pvio.abs.1.yr'
+        - 'Impact Estimate 1: OLS of ftr.pvio.abs.2.yr'
+        - 'Impact Estimate 1: OLS of ftr.pvio.tech.ever'
+        - 'Impact Estimate 1: OLS of ftr.pvio.tech.3.mos'
+        - 'Impact Estimate 1: OLS of ftr.pvio.tech.6.mos'
+        - 'Impact Estimate 1: OLS of ftr.pvio.tech.1.yr'
+        - 'Impact Estimate 1: OLS of ftr.pvio.tech.2.yr'
+    desired_cols:
+        - Outcome
+        - Control mean
+        - Treatment Effect
+        - Std Error
+        - Sample Size
+        - Lower 95% Conf Int
+        - Upper 95% Conf Int
+
+Table A2:
+    Effect of attending a forum using a two stage least squares':
+        - 'Impact Estimate 1: 2SLS of ftr.arr.ever'
+        - 'Impact Estimate 1: 2SLS of ftr.arr.3.mos'
+        - 'Impact Estimate 1: 2SLS of ftr.arr.6.mos'
+        - 'Impact Estimate 1: 2SLS of ftr.arr.1.yr'
+        - 'Impact Estimate 1: 2SLS of ftr.arr.2.yr'
+        - 'Impact Estimate 1: 2SLS of ftr.vfo.arr.ever'
+        - 'Impact Estimate 1: 2SLS of ftr.vfo.arr.3.mos'
+        - 'Impact Estimate 1: 2SLS of ftr.vfo.arr.6.mos'
+        - 'Impact Estimate 1: 2SLS of ftr.vfo.arr.1.yr'
+        - 'Impact Estimate 1: 2SLS of ftr.vfo.arr.2.yr'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.ever'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.3.mos'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.6.mos'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.1.yr'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.2.yr'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.new.arr.ever'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.new.arr.3.mos'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.new.arr.6.mos'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.new.arr.1.yr'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.new.arr.2.yr'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.abs.ever'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.abs.3.mos'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.abs.6.mos'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.abs.1.yr'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.abs.2.yr'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.tech.ever'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.tech.3.mos'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.tech.6.mos'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.tech.1.yr'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.tech.2.yr'
+    desired_cols:
+        - Outcome
+        - Control mean
+        - Treatment Effect
+        - Std Error
+        - Sample Size
+        - Lower 95% Conf Int
+        - Upper 95% Conf Int
+
+Table 6:
+    Effect of being called in to attend forums for individuals under age 30:
+        - 'Impact Estimate 1: OLS of ftr.arr.1.yr - under 30'
+        - 'Impact Estimate 1: OLS of ftr.vfo.arr.1.yr - under 30'
+        - 'Impact Estimate 1: OLS of ftr.pvio.1.yr - under 30'
+        - 'Impact Estimate 1: OLS of ftr.pvio.new.arr.1.yr - under 30'
+        - 'Impact Estimate 1: OLS of ftr.pvio.abs.1.yr - under 30'
+        - 'Impact Estimate 1: OLS of ftr.pvio.tech.1.yr - under 30'
+    desired_cols:
+        - Outcome
+        - Control mean
+        - Treatment Effect
+        - Std Error
+        - Sample Size
+        - Lower 95% Conf Int
+        - Upper 95% Conf Int
+
+Table 8:
+    Effect of being called in to attend forums for individuals with at least two weapons charges': # yamllint disable-line
+        - 'Impact Estimate 1: OLS of ftr.arr.1.yr - min 2 weapons charges'
+        - 'Impact Estimate 1: OLS of ftr.vfo.arr.1.yr - min 2 weapons charges'
+        - 'Impact Estimate 1: OLS of ftr.pvio.1.yr - min 2 weapons charges'
+        - 'Impact Estimate 1: OLS of ftr.pvio.new.arr.1.yr - min 2 weapons charges' # yamllint disable-line
+        - 'Impact Estimate 1: OLS of ftr.pvio.abs.1.yr - min 2 weapons charges'
+        - 'Impact Estimate 1: OLS of ftr.pvio.tech.1.yr - min 2 weapons charges'
+    desired_cols:
+        - Outcome
+        - Control mean
+        - Treatment Effect
+        - Std Error
+        - Sample Size
+        - Lower 95% Conf Int
+        - Upper 95% Conf Int
+
+Table 6b:
+    Effect of being called in to attend forums for individuals under age 30:
+        - 'Impact Estimate 1: OLS of ftr.arr.6.mos - under 30'
+        - 'Impact Estimate 1: OLS of ftr.vfo.arr.6.mos - under 30'
+        - 'Impact Estimate 1: OLS of ftr.pvio.6.mos - under 30'
+        - 'Impact Estimate 1: OLS of ftr.pvio.new.arr.6.mos - under 30'
+        - 'Impact Estimate 1: OLS of ftr.pvio.abs.6.mos - under 30'
+        - 'Impact Estimate 1: OLS of ftr.pvio.tech.6.mos - under 30'
+    desired_cols:
+        - Outcome
+        - Control mean
+        - Treatment Effect
+        - Std Error
+        - Sample Size
+        - Lower 95% Conf Int
+        - Upper 95% Conf Int
+
+Table 8b:
+    Effect of being called in to attend forums for individuals with at least two weapons charges': # yamllint disable-line
+        - 'Impact Estimate 1: OLS of ftr.arr.6.mos - min 2 weapons charges'
+        - 'Impact Estimate 1: OLS of ftr.vfo.arr.6.mos - min 2 weapons charges'
+        - 'Impact Estimate 1: OLS of ftr.pvio.6.mos - min 2 weapons charges'
+        - 'Impact Estimate 1: OLS of ftr.pvio.new.arr.6.mos - min 2 weapons charges' # yamllint disable-line
+        - 'Impact Estimate 1: OLS of ftr.pvio.abs.6.mos - min 2 weapons charges'
+        - 'Impact Estimate 1: OLS of ftr.pvio.tech.6.mos - min 2 weapons charges' # yamllint disable-line
+    desired_cols:
+        - Outcome
+        - Control mean
+        - Treatment Effect
+        - Std Error
+        - Sample Size
+        - Lower 95% Conf Int
+        - Upper 95% Conf Int
+
+Table 9:
+    Effect within 1 year of being called in to attend forums by program site:
+        - 'Impact Estimate 1: OLS of ftr.arr.1.yr - Albany specific'
+        - 'Impact Estimate 1: OLS of ftr.arr.1.yr - Bronx specific'
+        - 'Impact Estimate 1: OLS of ftr.arr.1.yr - Brooklyn specific'
+        - 'Impact Estimate 1: OLS of ftr.arr.1.yr - Manhattan specific'
+        - 'Impact Estimate 1: OLS of ftr.arr.1.yr - Schenectady specific'
+        - 'Impact Estimate 1: OLS of ftr.vfo.arr.1.yr - Albany specific'
+        - 'Impact Estimate 1: OLS of ftr.vfo.arr.1.yr - Bronx specific'
+        - 'Impact Estimate 1: OLS of ftr.vfo.arr.1.yr - Brooklyn specific'
+        - 'Impact Estimate 1: OLS of ftr.vfo.arr.1.yr - Manhattan specific'
+        - 'Impact Estimate 1: OLS of ftr.vfo.arr.1.yr - Schenectady specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.1.yr - Albany specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.1.yr - Bronx specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.1.yr - Brooklyn specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.1.yr - Manhattan specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.1.yr - Schenectady specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.new.arr.1.yr - Albany specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.new.arr.1.yr - Bronx specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.new.arr.1.yr - Brooklyn specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.new.arr.1.yr - Manhattan specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.new.arr.1.yr - Schenectady specific' # yamllint disable-line
+        - 'Impact Estimate 1: OLS of ftr.pvio.abs.1.yr - Albany specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.abs.1.yr - Bronx specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.abs.1.yr - Brooklyn specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.abs.1.yr - Manhattan specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.abs.1.yr - Schenectady specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.tech.1.yr - Albany specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.tech.1.yr - Bronx specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.tech.1.yr - Brooklyn specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.tech.1.yr - Manhattan specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.tech.1.yr - Schenectady specific'
+    desired_cols:
+        - Outcome
+        - Control mean
+        - Treatment Effect
+        - Std Error
+        - Sample Size
+        - Lower 95% Conf Int
+        - Upper 95% Conf Int
+
+Table 9b:
+    Effect within 6 months of being called in to attend forums by program site:
+        - 'Impact Estimate 1: OLS of ftr.arr.6.mos - Albany specific'
+        - 'Impact Estimate 1: OLS of ftr.arr.6.mos - Bronx specific'
+        - 'Impact Estimate 1: OLS of ftr.arr.6.mos - Brooklyn specific'
+        - 'Impact Estimate 1: OLS of ftr.arr.6.mos - Manhattan specific'
+        - 'Impact Estimate 1: OLS of ftr.arr.6.mos - Schenectady specific'
+        - 'Impact Estimate 1: OLS of ftr.vfo.arr.6.mos - Albany specific'
+        - 'Impact Estimate 1: OLS of ftr.vfo.arr.6.mos - Bronx specific'
+        - 'Impact Estimate 1: OLS of ftr.vfo.arr.6.mos - Brooklyn specific'
+        - 'Impact Estimate 1: OLS of ftr.vfo.arr.6.mos - Manhattan specific'
+        - 'Impact Estimate 1: OLS of ftr.vfo.arr.6.mos - Schenectady specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.6.mos - Albany specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.6.mos - Bronx specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.6.mos - Brooklyn specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.6.mos - Manhattan specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.6.mos - Schenectady specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.new.arr.6.mos - Albany specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.new.arr.6.mos - Bronx specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.new.arr.6.mos - Brooklyn specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.new.arr.6.mos - Manhattan specific' # yamllint disable-line
+        - 'Impact Estimate 1: OLS of ftr.pvio.new.arr.6.mos - Schenectady specific' # yamllint disable-line
+        - 'Impact Estimate 1: OLS of ftr.pvio.abs.6.mos - Albany specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.abs.6.mos - Bronx specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.abs.6.mos - Brooklyn specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.abs.6.mos - Manhattan specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.abs.6.mos - Schenectady specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.tech.6.mos - Albany specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.tech.6.mos - Bronx specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.tech.6.mos - Brooklyn specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.tech.6.mos - Manhattan specific'
+        - 'Impact Estimate 1: OLS of ftr.pvio.tech.6.mos - Schenectady specific'
+    desired_cols:
+        - Outcome
+        - Control mean
+        - Treatment Effect
+        - Std Error
+        - Sample Size
+        - Lower 95% Conf Int
+        - Upper 95% Conf Int
+
+Table 10:
+    Effect of living in treatment neighborhoods, but not called in to attend forums': # yamllint disable-line
+        - 'Impact Estimate 3: OLS of ftr.arr.ever'
+        - 'Impact Estimate 3: OLS of ftr.arr.3.mos'
+        - 'Impact Estimate 3: OLS of ftr.arr.6.mos'
+        - 'Impact Estimate 3: OLS of ftr.arr.1.yr'
+        - 'Impact Estimate 3: OLS of ftr.arr.2.yr'
+        - 'Impact Estimate 3: OLS of ftr.vfo.arr.ever'
+        - 'Impact Estimate 3: OLS of ftr.vfo.arr.3.mos'
+        - 'Impact Estimate 3: OLS of ftr.vfo.arr.6.mos'
+        - 'Impact Estimate 3: OLS of ftr.vfo.arr.1.yr'
+        - 'Impact Estimate 3: OLS of ftr.vfo.arr.2.yr'
+        - 'Impact Estimate 3: OLS of ftr.pvio.ever'
+        - 'Impact Estimate 3: OLS of ftr.pvio.3.mos'
+        - 'Impact Estimate 3: OLS of ftr.pvio.6.mos'
+        - 'Impact Estimate 3: OLS of ftr.pvio.1.yr'
+        - 'Impact Estimate 3: OLS of ftr.pvio.2.yr'
+        - 'Impact Estimate 3: OLS of ftr.pvio.new.arr.ever'
+        - 'Impact Estimate 3: OLS of ftr.pvio.new.arr.3.mos'
+        - 'Impact Estimate 3: OLS of ftr.pvio.new.arr.6.mos'
+        - 'Impact Estimate 3: OLS of ftr.pvio.new.arr.1.yr'
+        - 'Impact Estimate 3: OLS of ftr.pvio.new.arr.2.yr'
+        - 'Impact Estimate 3: OLS of ftr.pvio.abs.ever'
+        - 'Impact Estimate 3: OLS of ftr.pvio.abs.3.mos'
+        - 'Impact Estimate 3: OLS of ftr.pvio.abs.6.mos'
+        - 'Impact Estimate 3: OLS of ftr.pvio.abs.1.yr'
+        - 'Impact Estimate 3: OLS of ftr.pvio.abs.2.yr'
+        - 'Impact Estimate 3: OLS of ftr.pvio.tech.ever'
+        - 'Impact Estimate 3: OLS of ftr.pvio.tech.3.mos'
+        - 'Impact Estimate 3: OLS of ftr.pvio.tech.6.mos'
+        - 'Impact Estimate 3: OLS of ftr.pvio.tech.1.yr'
+        - 'Impact Estimate 3: OLS of ftr.pvio.tech.2.yr'
+    desired_cols:
+        - Outcome
+        - Control mean
+        - Treatment Effect
+        - Std Error
+        - Sample Size
+        - Lower 95% Conf Int
+        - Upper 95% Conf Int
+
+Table 10b:
+    Effect of living in a treatment neighborhood and being called in to attend forums': # yamllint disable-line
+        - 'Impact Estimate 2: OLS of ftr.arr.ever'
+        - 'Impact Estimate 2: OLS of ftr.arr.3.mos'
+        - 'Impact Estimate 2: OLS of ftr.arr.6.mos'
+        - 'Impact Estimate 2: OLS of ftr.arr.1.yr'
+        - 'Impact Estimate 2: OLS of ftr.arr.2.yr'
+        - 'Impact Estimate 2: OLS of ftr.vfo.arr.ever'
+        - 'Impact Estimate 2: OLS of ftr.vfo.arr.3.mos'
+        - 'Impact Estimate 2: OLS of ftr.vfo.arr.6.mos'
+        - 'Impact Estimate 2: OLS of ftr.vfo.arr.1.yr'
+        - 'Impact Estimate 2: OLS of ftr.vfo.arr.2.yr'
+        - 'Impact Estimate 2: OLS of ftr.pvio.ever'
+        - 'Impact Estimate 2: OLS of ftr.pvio.3.mos'
+        - 'Impact Estimate 2: OLS of ftr.pvio.6.mos'
+        - 'Impact Estimate 2: OLS of ftr.pvio.1.yr'
+        - 'Impact Estimate 2: OLS of ftr.pvio.2.yr'
+        - 'Impact Estimate 2: OLS of ftr.pvio.new.arr.ever'
+        - 'Impact Estimate 2: OLS of ftr.pvio.new.arr.3.mos'
+        - 'Impact Estimate 2: OLS of ftr.pvio.new.arr.6.mos'
+        - 'Impact Estimate 2: OLS of ftr.pvio.new.arr.1.yr'
+        - 'Impact Estimate 2: OLS of ftr.pvio.new.arr.2.yr'
+        - 'Impact Estimate 2: OLS of ftr.pvio.abs.ever'
+        - 'Impact Estimate 2: OLS of ftr.pvio.abs.3.mos'
+        - 'Impact Estimate 2: OLS of ftr.pvio.abs.6.mos'
+        - 'Impact Estimate 2: OLS of ftr.pvio.abs.1.yr'
+        - 'Impact Estimate 2: OLS of ftr.pvio.abs.2.yr'
+        - 'Impact Estimate 2: OLS of ftr.pvio.tech.ever'
+        - 'Impact Estimate 2: OLS of ftr.pvio.tech.3.mos'
+        - 'Impact Estimate 2: OLS of ftr.pvio.tech.6.mos'
+        - 'Impact Estimate 2: OLS of ftr.pvio.tech.1.yr'
+        - 'Impact Estimate 2: OLS of ftr.pvio.tech.2.yr'
+    desired_cols:
+        - Outcome
+        - Control mean
+        - Treatment Effect
+        - Std Error
+        - Sample Size
+        - Lower 95% Conf Int
+        - Upper 95% Conf Int
+
+Table 5 truncated:
+    Effect of being called in to attend forums:
+        - 'Impact Estimate 1: OLS of ftr.arr.ever - limited'
+        - 'Impact Estimate 1: OLS of ftr.arr.3.mos - limited'
+        - 'Impact Estimate 1: OLS of ftr.arr.6.mos - limited'
+        - 'Impact Estimate 1: OLS of ftr.arr.1.yr - limited'
+        - 'Impact Estimate 1: OLS of ftr.vfo.arr.ever - limited'
+        - 'Impact Estimate 1: OLS of ftr.vfo.arr.3.mos - limited'
+        - 'Impact Estimate 1: OLS of ftr.vfo.arr.6.mos - limited'
+        - 'Impact Estimate 1: OLS of ftr.vfo.arr.1.yr - limited'
+        - 'Impact Estimate 1: OLS of ftr.pvio.ever - limited'
+        - 'Impact Estimate 1: OLS of ftr.pvio.3.mos - limited'
+        - 'Impact Estimate 1: OLS of ftr.pvio.6.mos - limited'
+        - 'Impact Estimate 1: OLS of ftr.pvio.1.yr - limited'
+        - 'Impact Estimate 1: OLS of ftr.pvio.new.arr.ever - limited'
+        - 'Impact Estimate 1: OLS of ftr.pvio.new.arr.3.mos - limited'
+        - 'Impact Estimate 1: OLS of ftr.pvio.new.arr.6.mos - limited'
+        - 'Impact Estimate 1: OLS of ftr.pvio.new.arr.1.yr - limited'
+        - 'Impact Estimate 1: OLS of ftr.pvio.abs.ever - limited'
+        - 'Impact Estimate 1: OLS of ftr.pvio.abs.3.mos - limited'
+        - 'Impact Estimate 1: OLS of ftr.pvio.abs.6.mos - limited'
+        - 'Impact Estimate 1: OLS of ftr.pvio.abs.1.yr - limited'
+        - 'Impact Estimate 1: OLS of ftr.pvio.tech.ever - limited'
+        - 'Impact Estimate 1: OLS of ftr.pvio.tech.3.mos - limited'
+        - 'Impact Estimate 1: OLS of ftr.pvio.tech.6.mos - limited'
+        - 'Impact Estimate 1: OLS of ftr.pvio.tech.1.yr - limited'
+    desired_cols:
+        - Outcome
+        - Control mean
+        - Treatment Effect
+        - Std Error
+        - Lower 95% Conf Int
+        - Upper 95% Conf Int
+
+Table A2 truncated:
+    Effect of attending a forum using a two stage least squares':
+        - 'Impact Estimate 1: 2SLS of ftr.arr.ever - limited'
+        - 'Impact Estimate 1: 2SLS of ftr.arr.3.mos - limited'
+        - 'Impact Estimate 1: 2SLS of ftr.arr.6.mos - limited'
+        - 'Impact Estimate 1: 2SLS of ftr.arr.1.yr - limited'
+        - 'Impact Estimate 1: 2SLS of ftr.vfo.arr.ever - limited'
+        - 'Impact Estimate 1: 2SLS of ftr.vfo.arr.3.mos - limited'
+        - 'Impact Estimate 1: 2SLS of ftr.vfo.arr.6.mos - limited'
+        - 'Impact Estimate 1: 2SLS of ftr.vfo.arr.1.yr - limited'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.ever - limited'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.3.mos - limited'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.6.mos - limited'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.1.yr - limited'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.new.arr.ever - limited'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.new.arr.3.mos - limited'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.new.arr.6.mos - limited'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.new.arr.1.yr - limited'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.abs.ever - limited'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.abs.3.mos - limited'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.abs.6.mos - limited'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.abs.1.yr - limited'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.tech.ever - limited'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.tech.3.mos - limited'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.tech.6.mos - limited'
+        - 'Impact Estimate 1: 2SLS of ftr.pvio.tech.1.yr - limited'
+    desired_cols:
+        - Outcome
+        - Control mean
+        - Treatment Effect
+        - Std Error
+        - Lower 95% Conf Int
+        - Upper 95% Conf In
