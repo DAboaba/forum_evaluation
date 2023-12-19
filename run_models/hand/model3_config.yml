@@ -1,0 +1,110 @@
+---
+# model specification
+model:
+    - 3
+
+model_types:
+    - OLS
+
+outcomes:
+    - ftr.arr.ever
+    - ftr.arr.3.mos
+    - ftr.arr.6.mos
+    - ftr.arr.1.yr
+    - ftr.arr.2.yr
+    - ftr.vfo.arr.ever
+    - ftr.vfo.arr.3.mos
+    - ftr.vfo.arr.6.mos
+    - ftr.vfo.arr.1.yr
+    - ftr.vfo.arr.2.yr
+    - ftr.wea.arr.ever
+    - ftr.wea.arr.3.mos
+    - ftr.wea.arr.6.mos
+    - ftr.wea.arr.1.yr
+    - ftr.wea.arr.2.yr
+    - ftr.pvio.ever
+    - ftr.pvio.3.mos
+    - ftr.pvio.6.mos
+    - ftr.pvio.1.yr
+    - ftr.pvio.2.yr
+    - ftr.pvio.new.arr.ever
+    - ftr.pvio.new.arr.3.mos
+    - ftr.pvio.new.arr.6.mos
+    - ftr.pvio.new.arr.1.yr
+    - ftr.pvio.new.arr.2.yr
+    - ftr.pvio.abs.ever
+    - ftr.pvio.abs.3.mos
+    - ftr.pvio.abs.6.mos
+    - ftr.pvio.abs.1.yr
+    - ftr.pvio.abs.2.yr
+    - ftr.pvio.tech.ever
+    - ftr.pvio.tech.3.mos
+    - ftr.pvio.tech.6.mos
+    - ftr.pvio.tech.1.yr
+    - ftr.pvio.tech.2.yr
+    - ftr.arr.trunc.ever
+    - ftr.arr.trunc.3.mos
+    - ftr.arr.trunc.6.mos
+    - ftr.arr.trunc.1.yr
+    - ftr.arr.trunc.2.yr
+    - ftr.vfo.arr.trunc.ever
+    - ftr.vfo.arr.trunc.3.mos
+    - ftr.vfo.arr.trunc.6.mos
+    - ftr.vfo.arr.trunc.1.yr
+    - ftr.vfo.arr.trunc.2.yr
+    - ftr.wea.arr.trunc.ever
+    - ftr.wea.arr.trunc.3.mos
+    - ftr.wea.arr.trunc.6.mos
+    - ftr.wea.arr.trunc.1.yr
+    - ftr.wea.arr.trunc.2.yr
+    - ftr.pvio.trunc.ever
+    - ftr.pvio.trunc.3.mos
+    - ftr.pvio.trunc.6.mos
+    - ftr.pvio.trunc.1.yr
+    - ftr.pvio.trunc.2.yr
+    - ftr.pvio.new.arr.trunc.ever
+    - ftr.pvio.new.arr.trunc.3.mos
+    - ftr.pvio.new.arr.trunc.6.mos
+    - ftr.pvio.new.arr.trunc.1.yr
+    - ftr.pvio.new.arr.trunc.2.yr
+    - ftr.pvio.abs.trunc.ever
+    - ftr.pvio.abs.trunc.3.mos
+    - ftr.pvio.abs.trunc.6.mos
+    - ftr.pvio.abs.trunc.1.yr
+    - ftr.pvio.abs.trunc.2.yr
+    - ftr.pvio.tech.trunc.ever
+    - ftr.pvio.tech.trunc.3.mos
+    - ftr.pvio.tech.trunc.6.mos
+    - ftr.pvio.tech.trunc.1.yr
+    - ftr.pvio.tech.trunc.2.yr
+
+treatment_groups:
+    - 2
+    - 3
+    - 4
+
+treatment_indicator:
+    - treatment_group_2
+
+age_restrictions:
+    - NA
+
+min_wea_chrge_restrictions:
+    - NA
+
+controls:
+    - num.eligible.indivs.ct
+    - arr.re.combi_Black
+    - arr.re.combi_Hispanic
+    - arr.re.combi_Other
+    - modal.age
+    - modal.age.sq
+    - modal.sex_Male
+    - prior.arr.count
+    - prior.arr.sq
+    - prior.vfo.arr.count
+    - prior.wea.arr.count
+    - sample.entr.mo
+
+fixed_effects:
+    - block
