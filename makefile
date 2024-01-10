@@ -4,7 +4,7 @@ all:
 	cd create_arrest_incidents_table && make
 	cd create_universe_table && make
 
-	cd clean_universe_table && make
+	cd process_universe_table && make
 	cd generate_treatment_tract_crosswalks && make
 
 	cd generate_potential_covariates && make
