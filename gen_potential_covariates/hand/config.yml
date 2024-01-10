@@ -1,7 +1,7 @@
 ---
 previous_task_name:
     - create_arrest_incidents_table
-    - clean_universe_table
+    - process_universe_table
 
 num_days_in_month: 30.4
 
