@@ -1,6 +1,6 @@
 TASK_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
-PREV_TASK1 := generate_potential_covariates
-PREV_TASK2 := generate_outcomes
+PREV_TASK1 := gen_potential_covariates
+PREV_TASK2 := gen_outcomes
 
 include ../config.mk
 
