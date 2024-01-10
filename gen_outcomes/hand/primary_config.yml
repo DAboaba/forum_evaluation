@@ -2,4 +2,4 @@
 previous_task_name:
     - create_violation_incidents_table
     - create_arrest_incidents_table
-    - clean_universe_table
+    - process_universe_table
