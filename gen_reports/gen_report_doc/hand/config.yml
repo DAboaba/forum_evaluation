@@ -1,7 +1,7 @@
 ---
 previous_task_names:
-    - generate_reports/generate_model_tables
-    - generate_reports/generate_plots
+    - gen_reports/gen_model_tables
+    - gen_reports/gen_plots
 
 render_input: src/generate_report_doc.R
 
