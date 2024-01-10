@@ -1,6 +1,6 @@
 TASK_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 PREV_TASK1 := create_arrest_incidents_table
-PREV_TASK2 := clean_universe_table
+PREV_TASK2 := process_universe_table
 
 include ../config.mk
 
