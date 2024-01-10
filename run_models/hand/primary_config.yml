@@ -1,4 +1,4 @@
 ---
 previous_task_name:
-    - generate_potential_covariates
-    - generate_outcomes
+    - gen_potential_covariates
+    - gen_outcomes
