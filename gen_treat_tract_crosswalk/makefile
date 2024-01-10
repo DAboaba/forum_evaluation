@@ -1,5 +1,5 @@
 TASK_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
-PREV_TASK := clean_universe_table
+PREV_TASK := process_universe_table
 
 include ../config.mk
 
